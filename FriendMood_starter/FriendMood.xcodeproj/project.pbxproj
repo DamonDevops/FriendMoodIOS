@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F626C222677890900802AA0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3F626C212677890900802AA0 /* Alamofire */; };
+		3F626C262677891C00802AA0 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 3F626C252677891C00802AA0 /* AlamofireImage */; };
+		3F626C2A2677894500802AA0 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 3F626C292677894500802AA0 /* SwiftyJSON */; };
+		A93C3B55203C5BB40026DE60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93C3B54203C5BB40026DE60 /* AppDelegate.swift */; };
+		A93C3B5C203C5BB40026DE60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93C3B5A203C5BB40026DE60 /* Main.storyboard */; };
+		A93C3B5E203C5BB40026DE60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93C3B5D203C5BB40026DE60 /* Assets.xcassets */; };
+		A93C3B61203C5BB40026DE60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93C3B5F203C5BB40026DE60 /* LaunchScreen.storyboard */; };
+		A93C3B69203C5C060026DE60 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93C3B68203C5C060026DE60 /* HomeViewController.swift */; };
+		A93C3B6B203C5C190026DE60 /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93C3B6A203C5C190026DE60 /* ProfilViewController.swift */; };
+		A93C3B6D203C5C270026DE60 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93C3B6C203C5C270026DE60 /* SettingsViewController.swift */; };
+		A93C3B6F203C5C300026DE60 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93C3B6E203C5C300026DE60 /* FriendsViewController.swift */; };
+		A96648FF203C5ED100963471 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96648FE203C5ED100963471 /* Message.swift */; };
+		A9664901203C5EE000963471 /* Mooder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9664900203C5EE000963471 /* Mooder.swift */; };
+		A9664904203C5F1200963471 /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9664903203C5F1200963471 /* NetworkServices.swift */; };
+		A9664907203C60BF00963471 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9664906203C60BF00963471 /* EndPoints.swift */; };
+		A9664909203C6F3200963471 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9664908203C6F3200963471 /* MessageTableViewCell.swift */; };
+		A966490C203C7D3400963471 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A966490B203C7D3400963471 /* FriendTableViewCell.swift */; };
+		A966490E203C823A00963471 /* MoodSetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A966490D203C823A00963471 /* MoodSetterViewController.swift */; };
+		A9664910203C88E600963471 /* SmileyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A966490F203C88E600963471 /* SmileyCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F626C1F267788CC00802AA0 /* FriendMood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendMood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93C3B54203C5BB40026DE60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A93C3B5B203C5BB40026DE60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A93C3B5D203C5BB40026DE60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A93C3B60203C5BB40026DE60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A93C3B62203C5BB40026DE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93C3B68203C5C060026DE60 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A93C3B6A203C5C190026DE60 /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
+		A93C3B6C203C5C270026DE60 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A93C3B6E203C5C300026DE60 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		A96648FE203C5ED100963471 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		A9664900203C5EE000963471 /* Mooder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mooder.swift; sourceTree = "<group>"; };
+		A9664903203C5F1200963471 /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
+		A9664906203C60BF00963471 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		A9664908203C6F3200963471 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		A966490B203C7D3400963471 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		A966490D203C823A00963471 /* MoodSetterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodSetterViewController.swift; sourceTree = "<group>"; };
+		A966490F203C88E600963471 /* SmileyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A93C3B4E203C5BB40026DE60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F626C2A2677894500802AA0 /* SwiftyJSON in Frameworks */,
+				3F626C222677890900802AA0 /* Alamofire in Frameworks */,
+				3F626C262677891C00802AA0 /* AlamofireImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A93C3B48203C5BB40026DE60 = {
+			isa = PBXGroup;
+			children = (
+				A93C3B53203C5BB40026DE60 /* FriendMood */,
+				3F626C1F267788CC00802AA0 /* FriendMood.app */,
+			);
+			sourceTree = "<group>";
+		};
+		A93C3B53203C5BB40026DE60 /* FriendMood */ = {
+			isa = PBXGroup;
+			children = (
+				A93C3B54203C5BB40026DE60 /* AppDelegate.swift */,
+				A93C3B5A203C5BB40026DE60 /* Main.storyboard */,
+				A93C3B70203C5C370026DE60 /* ViewControllers */,
+				A966490A203C6F3500963471 /* Cells */,
+				A9664902203C5EE300963471 /* Models */,
+				A9664905203C5F1500963471 /* Services */,
+				A93C3B5D203C5BB40026DE60 /* Assets.xcassets */,
+				A93C3B5F203C5BB40026DE60 /* LaunchScreen.storyboard */,
+				A93C3B62203C5BB40026DE60 /* Info.plist */,
+			);
+			path = FriendMood;
+			sourceTree = "<group>";
+		};
+		A93C3B70203C5C370026DE60 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A93C3B68203C5C060026DE60 /* HomeViewController.swift */,
+				A93C3B6A203C5C190026DE60 /* ProfilViewController.swift */,
+				A93C3B6C203C5C270026DE60 /* SettingsViewController.swift */,
+				A93C3B6E203C5C300026DE60 /* FriendsViewController.swift */,
+				A966490D203C823A00963471 /* MoodSetterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A9664902203C5EE300963471 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A96648FE203C5ED100963471 /* Message.swift */,
+				A9664900203C5EE000963471 /* Mooder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A9664905203C5F1500963471 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A9664903203C5F1200963471 /* NetworkServices.swift */,
+				A9664906203C60BF00963471 /* EndPoints.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A966490A203C6F3500963471 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A9664908203C6F3200963471 /* MessageTableViewCell.swift */,
+				A966490B203C7D3400963471 /* FriendTableViewCell.swift */,
+				A966490F203C88E600963471 /* SmileyCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A93C3B50203C5BB40026DE60 /* FriendMood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93C3B65203C5BB40026DE60 /* Build configuration list for PBXNativeTarget "FriendMood" */;
+			buildPhases = (
+				A93C3B4D203C5BB40026DE60 /* Sources */,
+				A93C3B4E203C5BB40026DE60 /* Frameworks */,
+				A93C3B4F203C5BB40026DE60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FriendMood;
+			packageProductDependencies = (
+				3F626C212677890900802AA0 /* Alamofire */,
+				3F626C252677891C00802AA0 /* AlamofireImage */,
+				3F626C292677894500802AA0 /* SwiftyJSON */,
+			);
+			productName = FriendMood2018;
+			productReference = 3F626C1F267788CC00802AA0 /* FriendMood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A93C3B49203C5BB40026DE60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = "Joris Thiery";
+				TargetAttributes = {
+					A93C3B50203C5BB40026DE60 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1220;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = A93C3B4C203C5BB40026DE60 /* Build configuration list for PBXProject "FriendMood" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A93C3B48203C5BB40026DE60;
+			packageReferences = (
+				3F626C202677890900802AA0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				3F626C242677891C00802AA0 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				3F626C282677894400802AA0 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
+			productRefGroup = A93C3B48203C5BB40026DE60;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A93C3B50203C5BB40026DE60 /* FriendMood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A93C3B4F203C5BB40026DE60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93C3B61203C5BB40026DE60 /* LaunchScreen.storyboard in Resources */,
+				A93C3B5E203C5BB40026DE60 /* Assets.xcassets in Resources */,
+				A93C3B5C203C5BB40026DE60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A93C3B4D203C5BB40026DE60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9664910203C88E600963471 /* SmileyCollectionViewCell.swift in Sources */,
+				A93C3B6B203C5C190026DE60 /* ProfilViewController.swift in Sources */,
+				A9664907203C60BF00963471 /* EndPoints.swift in Sources */,
+				A966490E203C823A00963471 /* MoodSetterViewController.swift in Sources */,
+				A93C3B6F203C5C300026DE60 /* FriendsViewController.swift in Sources */,
+				A9664909203C6F3200963471 /* MessageTableViewCell.swift in Sources */,
+				A966490C203C7D3400963471 /* FriendTableViewCell.swift in Sources */,
+				A9664901203C5EE000963471 /* Mooder.swift in Sources */,
+				A93C3B55203C5BB40026DE60 /* AppDelegate.swift in Sources */,
+				A96648FF203C5ED100963471 /* Message.swift in Sources */,
+				A93C3B69203C5C060026DE60 /* HomeViewController.swift in Sources */,
+				A9664904203C5F1200963471 /* NetworkServices.swift in Sources */,
+				A93C3B6D203C5C270026DE60 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A93C3B5A203C5BB40026DE60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93C3B5B203C5BB40026DE60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A93C3B5F203C5BB40026DE60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93C3B60203C5BB40026DE60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A93C3B63203C5BB40026DE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A93C3B64203C5BB40026DE60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A93C3B66203C5BB40026DE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FriendMood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neopixl.FriendMood2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A93C3B67203C5BB40026DE60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FriendMood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neopixl.FriendMood2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A93C3B4C203C5BB40026DE60 /* Build configuration list for PBXProject "FriendMood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93C3B63203C5BB40026DE60 /* Debug */,
+				A93C3B64203C5BB40026DE60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93C3B65203C5BB40026DE60 /* Build configuration list for PBXNativeTarget "FriendMood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93C3B66203C5BB40026DE60 /* Debug */,
+				A93C3B67203C5BB40026DE60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F626C202677890900802AA0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+		3F626C242677891C00802AA0 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+		3F626C282677894400802AA0 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F626C212677890900802AA0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F626C202677890900802AA0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		3F626C252677891C00802AA0 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F626C242677891C00802AA0 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+		3F626C292677894500802AA0 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F626C282677894400802AA0 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A93C3B49203C5BB40026DE60 /* Project object */;
+}
