@@ -11,7 +11,6 @@ import UIKit
 
 
 enum EndPoints: String {
-    case mooders = "https://neopixl.com/technipixl/mooders.json"
-    case messages = "https://neopixl.com/technipixl/messages.json"
+    case mooders = "https://technipixl.neopixl.com/mooders"
+    case messages = "https://technipixl.neopixl.com/messages"
 }
-
