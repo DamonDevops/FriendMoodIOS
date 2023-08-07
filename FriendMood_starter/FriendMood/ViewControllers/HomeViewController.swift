@@ -10,6 +10,7 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var profileBackground: UIImageView!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var profilImageView: UIImageView!
     @IBOutlet weak var profilLabel: UILabel!
@@ -23,11 +24,19 @@ class HomeViewController: UIViewController {
         self.tableView.delegate = self
         self.tableView.dataSource = self
         
+        profileBackground.image = UIImage(named: "bg_home")
+        profilImageView.layer.cornerRadius = profilImageView.frame.size.height/2
+        profilImageView.image = UIImage(named: "duck")
+        profilImageView.backgroundColor = .systemGray5
+        profilImageView.layer.borderWidth = 3
+        profilImageView.layer.borderColor = CGColor(red: 255, green: 255, blue: 255, alpha: 1)
+        profilLabel.font = UIFont.openSansBold(size: 14)
+        profilLabel.textColor = .white
+        
         UIFont.familyNames.forEach({ familyName in
                    let fontNames = UIFont.fontNames(forFamilyName: familyName)
                    print(familyName, fontNames)
                })
-        
         self.refreshMessages()
     }
     
@@ -47,6 +56,7 @@ class HomeViewController: UIViewController {
     @IBAction func addAction(_ sender: UIButton) {
     
         if let moodController = self.storyboard?.instantiateViewController(withIdentifier: "MoodSetterViewController") as? MoodSetterViewController {
+            moodController.modalPresentationStyle = .fullScreen
             self.present(moodController, animated: true, completion: nil)
         }
     }

@@ -10,6 +10,9 @@ import UIKit
 
 class MoodSetterViewController: UIViewController {
 
+    @IBOutlet weak var centerView: UIView!
+    @IBOutlet weak var sendLabel: UILabel!
+    @IBOutlet weak var textFieldContainer: UIStackView!
     @IBOutlet weak var chooseYourMoodLabel: UILabel!
     @IBOutlet weak var moodTextField: UITextField!
     @IBOutlet weak var sendMoodButton: UIButton!
@@ -17,14 +20,21 @@ class MoodSetterViewController: UIViewController {
     @IBOutlet weak var closeButton: UIButton!
     @IBOutlet weak var smileysCollectionView: UICollectionView!
     
-    var smileys = [UIImage(named: "first"), UIImage(named: "second"), UIImage(named: "first"), UIImage(named: "second"), UIImage(named: "first"), UIImage(named: "second"), UIImage(named: "first"), UIImage(named: "second"), UIImage(named: "first"), UIImage(named: "second"), UIImage(named: "first"), UIImage(named: "second")]
+    var smileys = [UIImage(named: "ico_emo_profil"), UIImage(named: "ico_emo_1"), UIImage(named: "ico_emo_2"), UIImage(named: "ico_emo_3"), UIImage(named: "ico_emo_4"), UIImage(named: "ico_emo_5"), UIImage(named: "ico_emo_6"), UIImage(named: "ico_emo_7"), UIImage(named: "ico_emo_8"), UIImage(named: "ico_emo_9"), UIImage(named: "ico_emo_10"), UIImage(named: "ico_emo_11")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.moodTextField.becomeFirstResponder()
         
+        self.moodTextField.placeholder = "Je suis en mode <3 today"
+        self.moodTextField.font = UIFont.robotoRegular(size: 13)
+        self.moodTextField.textColor = UIColor.placeholderFont()
+        self.moodTextField.borderStyle = .none
+        
         self.chooseYourMoodLabel.text = "Quelle est votre humeur du jour ?"
+        self.chooseYourMoodLabel.font = UIFont.openSansSemiBold(size: 15)
+        self.chooseYourMoodLabel.textColor = UIColor.darkGreyFont()
         
         self.smileysCollectionView.delegate = self
         self.smileysCollectionView.dataSource = self
@@ -35,6 +45,22 @@ class MoodSetterViewController: UIViewController {
         layout.minimumInteritemSpacing = 0
         layout.minimumLineSpacing = 0
         self.smileysCollectionView.collectionViewLayout = layout
+        
+        profilImageView.layer.cornerRadius = profilImageView.frame.size.height/2
+        profilImageView.image = UIImage(named: "duck")
+        profilImageView.backgroundColor = .systemGray5
+        profilImageView.layer.borderWidth = 3
+        profilImageView.layer.borderColor = CGColor(red: 255, green: 255, blue: 255, alpha: 1)
+        
+        centerView.layer.cornerRadius = 5
+        centerView.layer.masksToBounds = true
+        
+        textFieldContainer.layer.borderWidth = 1
+        textFieldContainer.layer.borderColor = .init(gray: 0.8, alpha: 1)
+        textFieldContainer.layer.cornerRadius = textFieldContainer.frame.size.height/2
+        
+        sendMoodButton.titleLabel?.font = UIFont.robotoBold(size: 9)
+        sendMoodButton.titleLabel?.textColor = UIColor.lightGreyFont()
 
     }
     

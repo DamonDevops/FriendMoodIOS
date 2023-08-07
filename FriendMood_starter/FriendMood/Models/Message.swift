@@ -10,12 +10,12 @@ import UIKit
 import SwiftyJSON
 
 enum MooderStatus: String {
-    case cool = "cool"
-    case happy = "happy"
-    case grin = "grin"
-    case evil = "evil"
-    case shocked = "shocked"
-    case tongue = "tongue"
+    case cool = "ico_emo_home_5"
+    case happy = "ico_emo_home_3"
+    case grin = "ico_emo_home_2"
+    case evil = "ico_emo_home_1"
+    case shocked = "ico_emo_10"
+    case tongue = "ico_emo_4"
 }
 
 class Message {

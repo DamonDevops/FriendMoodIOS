@@ -23,6 +23,15 @@ class FriendsViewController: UIViewController {
         self.tableView.dataSource = self
         
         self.refreshMooders()
+        
+        profilImageView.layer.cornerRadius = profilImageView.frame.size.height/2
+        profilImageView.image = UIImage(named: "duck")
+        profilImageView.backgroundColor = .systemGray5
+        profilImageView.layer.borderWidth = 3
+        profilImageView.layer.borderColor = CGColor(red: 255, green: 255, blue: 255, alpha: 1)
+        
+        profilLabel.font = UIFont.openSansBold(size: 14)
+        profilLabel.textColor = .white
     }
     
     func refreshMooders() {

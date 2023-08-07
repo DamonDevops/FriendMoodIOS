@@ -32,6 +32,7 @@
 		F19496A22A80D537008EC69D /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F194969C2A80D536008EC69D /* OpenSans-Regular.ttf */; };
 		F19496A32A80D537008EC69D /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F194969D2A80D536008EC69D /* Roboto-Bold.ttf */; };
 		F19496A42A80D537008EC69D /* opensans_semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F194969E2A80D537008EC69D /* opensans_semibold.otf */; };
+		F19496A62A80D8CD008EC69D /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19496A52A80D8CD008EC69D /* Tools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		F194969C2A80D536008EC69D /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "FriendMood/friendmoods-ressources/OpenSans-Regular.ttf"; sourceTree = SOURCE_ROOT; };
 		F194969D2A80D536008EC69D /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "FriendMood/friendmoods-ressources/Roboto-Bold.ttf"; sourceTree = SOURCE_ROOT; };
 		F194969E2A80D537008EC69D /* opensans_semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = opensans_semibold.otf; path = "FriendMood/friendmoods-ressources/opensans_semibold.otf"; sourceTree = SOURCE_ROOT; };
+		F19496A52A80D8CD008EC69D /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		A93C3B53203C5BB40026DE60 /* FriendMood */ = {
 			isa = PBXGroup;
 			children = (
+				F19496A52A80D8CD008EC69D /* Tools.swift */,
 				F19496832A80D0AC008EC69D /* Ressources */,
 				A93C3B54203C5BB40026DE60 /* AppDelegate.swift */,
 				A93C3B5A203C5BB40026DE60 /* Main.storyboard */,
@@ -261,6 +264,7 @@
 				A93C3B55203C5BB40026DE60 /* AppDelegate.swift in Sources */,
 				A96648FF203C5ED100963471 /* Message.swift in Sources */,
 				A93C3B69203C5C060026DE60 /* HomeViewController.swift in Sources */,
+				F19496A62A80D8CD008EC69D /* Tools.swift in Sources */,
 				A9664904203C5F1200963471 /* NetworkServices.swift in Sources */,
 				A93C3B6D203C5C270026DE60 /* SettingsViewController.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FriendMood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -428,6 +433,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FriendMood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
