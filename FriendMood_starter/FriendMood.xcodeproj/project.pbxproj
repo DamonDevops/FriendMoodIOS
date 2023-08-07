@@ -26,6 +26,12 @@
 		A966490C203C7D3400963471 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A966490B203C7D3400963471 /* FriendTableViewCell.swift */; };
 		A966490E203C823A00963471 /* MoodSetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A966490D203C823A00963471 /* MoodSetterViewController.swift */; };
 		A9664910203C88E600963471 /* SmileyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A966490F203C88E600963471 /* SmileyCollectionViewCell.swift */; };
+		F194969F2A80D537008EC69D /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F19496992A80D536008EC69D /* OpenSans-Bold.ttf */; };
+		F19496A02A80D537008EC69D /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F194969A2A80D536008EC69D /* OpenSans-Light.ttf */; };
+		F19496A12A80D537008EC69D /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F194969B2A80D536008EC69D /* Roboto-Regular.ttf */; };
+		F19496A22A80D537008EC69D /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F194969C2A80D536008EC69D /* OpenSans-Regular.ttf */; };
+		F19496A32A80D537008EC69D /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F194969D2A80D536008EC69D /* Roboto-Bold.ttf */; };
+		F19496A42A80D537008EC69D /* opensans_semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F194969E2A80D537008EC69D /* opensans_semibold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +53,12 @@
 		A966490B203C7D3400963471 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
 		A966490D203C823A00963471 /* MoodSetterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodSetterViewController.swift; sourceTree = "<group>"; };
 		A966490F203C88E600963471 /* SmileyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyCollectionViewCell.swift; sourceTree = "<group>"; };
+		F19496992A80D536008EC69D /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "FriendMood/friendmoods-ressources/OpenSans-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		F194969A2A80D536008EC69D /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "FriendMood/friendmoods-ressources/OpenSans-Light.ttf"; sourceTree = SOURCE_ROOT; };
+		F194969B2A80D536008EC69D /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "FriendMood/friendmoods-ressources/Roboto-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		F194969C2A80D536008EC69D /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "FriendMood/friendmoods-ressources/OpenSans-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		F194969D2A80D536008EC69D /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "FriendMood/friendmoods-ressources/Roboto-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		F194969E2A80D537008EC69D /* opensans_semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = opensans_semibold.otf; path = "FriendMood/friendmoods-ressources/opensans_semibold.otf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,7 @@
 		A93C3B53203C5BB40026DE60 /* FriendMood */ = {
 			isa = PBXGroup;
 			children = (
+				F19496832A80D0AC008EC69D /* Ressources */,
 				A93C3B54203C5BB40026DE60 /* AppDelegate.swift */,
 				A93C3B5A203C5BB40026DE60 /* Main.storyboard */,
 				A93C3B70203C5C370026DE60 /* ViewControllers */,
@@ -125,6 +138,27 @@
 				A966490F203C88E600963471 /* SmileyCollectionViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		F19496832A80D0AC008EC69D /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				F19496862A80D13A008EC69D /* Fonts */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		F19496862A80D13A008EC69D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F194969E2A80D537008EC69D /* opensans_semibold.otf */,
+				F19496992A80D536008EC69D /* OpenSans-Bold.ttf */,
+				F194969A2A80D536008EC69D /* OpenSans-Light.ttf */,
+				F194969C2A80D536008EC69D /* OpenSans-Regular.ttf */,
+				F194969D2A80D536008EC69D /* Roboto-Bold.ttf */,
+				F194969B2A80D536008EC69D /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +231,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19496A12A80D537008EC69D /* Roboto-Regular.ttf in Resources */,
 				A93C3B61203C5BB40026DE60 /* LaunchScreen.storyboard in Resources */,
 				A93C3B5E203C5BB40026DE60 /* Assets.xcassets in Resources */,
+				F19496A22A80D537008EC69D /* OpenSans-Regular.ttf in Resources */,
+				F19496A42A80D537008EC69D /* opensans_semibold.otf in Resources */,
+				F194969F2A80D537008EC69D /* OpenSans-Bold.ttf in Resources */,
+				F19496A02A80D537008EC69D /* OpenSans-Light.ttf in Resources */,
+				F19496A32A80D537008EC69D /* Roboto-Bold.ttf in Resources */,
 				A93C3B5C203C5BB40026DE60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

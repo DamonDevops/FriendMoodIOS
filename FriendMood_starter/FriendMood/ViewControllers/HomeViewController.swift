@@ -23,6 +23,11 @@ class HomeViewController: UIViewController {
         self.tableView.delegate = self
         self.tableView.dataSource = self
         
+        UIFont.familyNames.forEach({ familyName in
+                   let fontNames = UIFont.fontNames(forFamilyName: familyName)
+                   print(familyName, fontNames)
+               })
+        
         self.refreshMessages()
     }
     
